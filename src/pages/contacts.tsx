@@ -8,10 +8,11 @@ const contact = (props: Props) => {
   return (
     <div>
       <Head>
-        <title>about</title>
+        <title>contact</title>
       </Head>
       <h1>Contact Pages</h1>
       <Link href={"/about"}>Back About</Link>
+      <Link href={"/"}>Back Home</Link>
     </div>
   );
 };

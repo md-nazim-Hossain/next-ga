@@ -28,7 +28,7 @@ export default function Home() {
         </h1>
 
         <Link href={"/about"}>Go To About</Link>
-        <Link href={"/contacts"}>Go To About</Link>
+        <Link href={"/contacts"}>Go To Contact</Link>
         <button onClick={addToCarts}>Add To Carts</button>
       </main>
 
