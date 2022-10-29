@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Script
         async
-        src={`src="https://www.googletagmanager.com/gtag/js?id=G-VPD5935WTZ"`}
+        src={`https://www.googletagmanager.com/gtag/js?id=G-23S03MS2ZP`}
         strategy="afterInteractive"
       />
       <Script id="next-google-ana" strategy="afterInteractive">
@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-VPD5935WTZ');
+          gtag('config', 'G-23S03MS2ZP');
         
         `}
       </Script>
