@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', '${process.env.ANALYTICS_ID}');
+          gtag('config', ${process.env.ANALYTICS_ID});
         
         `}
       </Script>
